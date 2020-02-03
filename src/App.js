@@ -1,7 +1,7 @@
 import React from 'react';
 import todosData from './todosData'
 import TodoItem from './TodoItem'
-import Form from './Form'
+import FormContainer from './FormContainer';
 
 class App extends React.Component {
   constructor() {
@@ -40,7 +40,7 @@ class App extends React.Component {
         <div className='todo-list'>
           {todos}
         </div>
-        <Form />
+        <FormContainer />
       </>
       ) 
   }
