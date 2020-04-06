@@ -4,7 +4,7 @@ class TodoItem extends React.Component {
 
   completedStyle = {
       fontStyle: 'italic',
-      color: '#cdcdcd',
+      color: '#ababab',
       textDecoration: 'line-through'
   }
 
